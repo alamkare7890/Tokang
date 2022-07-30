@@ -1,7 +1,14 @@
-/*==========Color-var=================*/
-/*==========Font-var==================*/
-/*==========Mixin=====================*/
-/*==========Extend====================*/
+.navigation {
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -24,6 +31,10 @@ a {
 }
 
 /*==========Common-Classes============*/
+.container-new {
+  max-width: 1440px;
+}
+
 .hero-head {
   font-size: 2.5rem;
   font-weight: 700;
@@ -68,17 +79,83 @@ a {
 
 .all-btn {
   text-transform: uppercase;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   padding: 15px 30px;
   background-color: #ebb204;
   color: #101010;
   font-weight: 400;
   display: inline-block;
+  border-radius: 0;
 }
 
 /*===============nav============*/
-/*===============heroHome============
-@import "heroHome";
+.navigation {
+  justify-content: space-between;
+}
+.navigation .logo {
+  width: 250px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  vertical-align: 0;
+  fill: #fff;
+}
+.navigation .ham-menu {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  border: none;
+  outline: none;
+  z-index: 0;
+}
+.navigation .ham-menu::after, .navigation .ham-menu::before {
+  content: "";
+  z-index: 10;
+  position: absolute;
+  width: 85%;
+  height: 5%;
+  background-color: #ebb204;
+}
+.navigation .ham-menu::before {
+  transform: translateY(-15px);
+  box-shadow: 0 15px 0 0 #ebb204;
+}
+.navigation .ham-menu::after {
+  transform: translateY(15px);
+}
+.navigation .ham-menu.active:before {
+  box-shadow: none;
+  transform: translateY(0) rotate(45deg);
+}
+.navigation .ham-menu.active:after {
+  transform: translateY(0) rotate(-45deg);
+}
+.navigation .nav-menu {
+  align-items: center;
+}
+.navigation .nav-menu ul {
+  margin-left: auto;
+}
+.navigation .nav-menu ul li a {
+  font-size: 0.75rem;
+  padding: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navigation .nav-menu ul li a span {
+  padding-right: 5px;
+}
+.navigation .nav-menu ul li .dropdown-toggle::after {
+  display: none;
+}
+
+/*===============heroHome============*/
+.hero-section {
+  background-image: url(../Image/Jpg/slider1.jpg);
+  height: 100vh;
+  min-height: 850px;
+  width: 100%;
+}
 
 /*===============About===============
 @import "about";
@@ -97,4 +174,109 @@ a {
 
 /*===============Footer-section======
 @import "footer";
-*//*# sourceMappingURL=style.css.map */
+*/
+/*===============media-query======*/
+
+@media only screen and (max-width: 1200px) {
+  /*===============nav============*/
+  /*===============heroHome============*/
+  /*===============About===============
+  @import "about";
+
+  /*===============Pages===============
+  @import "pages";
+
+  /*===============Portfolio===========
+  @import "portfolio";
+
+  /*===============service=============
+  @import "service";
+
+  /*===============Contact=============
+  @import "contact";
+
+  /*===============Footer-section======
+  @import "footer";
+  */
+  /*===============media-query======*/
+}
+@media only screen and (max-width: 991px) {
+  /*===============nav============*/
+  /*===============heroHome============*/
+  /*===============About===============
+  @import "about";
+
+  /*===============Pages===============
+  @import "pages";
+
+  /*===============Portfolio===========
+  @import "portfolio";
+
+  /*===============service=============
+  @import "service";
+
+  /*===============Contact=============
+  @import "contact";
+
+  /*===============Footer-section======
+  @import "footer";
+  */
+  /*===============media-query======*/
+}
+@media only screen and (max-width: 768) {
+  /*===============nav============*/
+  /*===============heroHome============*/
+  /*===============About===============
+  @import "about";
+
+  /*===============Pages===============
+  @import "pages";
+
+  /*===============Portfolio===========
+  @import "portfolio";
+
+  /*===============service=============
+  @import "service";
+
+  /*===============Contact=============
+  @import "contact";
+
+  /*===============Footer-section======
+  @import "footer";
+  */
+  /*===============media-query======*/
+}
+@media only screen and (max-width: 576px) {
+  /*===============nav============*/
+  /*===============heroHome============*/
+  /*===============About===============
+
+  /*===============Pages===============
+
+  /*===============Portfolio===========
+
+  /*===============service=============
+
+  /*===============Contact=============
+
+  /*===============Footer-section======
+  */
+  /*===============media-query======*/
+}
+@media only screen and (max-width: 480px) {
+  /*===============nav============*/
+  /*===============heroHome============*/
+  /*===============About===============
+
+  /*===============Pages===============
+
+  /*===============Portfolio===========
+
+  /*===============service=============
+
+  /*===============Contact=============
+
+  /*===============Footer-section======
+  */
+  /*===============media-query======*/
+}
