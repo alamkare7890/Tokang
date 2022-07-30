@@ -1,4 +1,4 @@
-/*==========Color-var=================*/
+/*==========Color-var=================*/ 
 $contentColor: #fff;
 $btnColor: #ebb204;
 $textColor: #606060;
@@ -85,25 +85,26 @@ a{
     display: inline-block; 
 }
 /*===============nav============*/ 
-@import "nav"; 
-    
-/*===============heroHome============*/ 
+@import "mynav";  
+ 
+/*===============heroHome============
 @import "heroHome";
 
-/*===============About===============*/
+/*===============About===============
 @import "about";
 
-/*===============Pages===============*/
+/*===============Pages===============
 @import "pages";
 
-/*===============Portfolio===========*/
+/*===============Portfolio===========
 @import "portfolio";
 
-/*===============service=============*/
+/*===============service=============
 @import "service";
 
-/*===============Contact=============*/
+/*===============Contact=============
 @import "contact";
 
-/*===============Footer-section======*/ 
+/*===============Footer-section======
 @import "footer";
+*/

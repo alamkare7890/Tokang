@@ -77,20 +77,24 @@ a {
 }
 
 /*===============nav============*/
-.navigation {
-  padding: 20px;
-}
-.navigation svg {
-  width: 200px;
-  height: 100px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
+/*===============heroHome============
+@import "heroHome";
 
-/*===============heroHome============*/
-/*===============About===============*/
-/*===============Pages===============*/
-/*===============Portfolio===========*/
-/*===============service=============*/
-/*===============Contact=============*/
-/*===============Footer-section======*//*# sourceMappingURL=style.css.map */
+/*===============About===============
+@import "about";
+
+/*===============Pages===============
+@import "pages";
+
+/*===============Portfolio===========
+@import "portfolio";
+
+/*===============service=============
+@import "service";
+
+/*===============Contact=============
+@import "contact";
+
+/*===============Footer-section======
+@import "footer";
+*//*# sourceMappingURL=style.css.map */
