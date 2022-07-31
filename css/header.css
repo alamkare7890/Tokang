@@ -1,0 +1,33 @@
+.hero-section{
+    background-image: url(../Image/Jpg/slider1.jpg);
+    height: 100vh;
+    min-height: 850px;
+}
+.navigation .logo{
+    width: 250px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+    vertical-align: 0;
+}
+.nav-menu ul li a{
+    color: #fff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+
+    
+}
+ul li a span{
+    padding-right: 3px;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.drop-menu{
+    background-color: #ebb204;
+    border-radius: 0;
+
+}
+.nav-menu .drop-menu a{
+    color: #101010;
+}

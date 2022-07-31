@@ -15,12 +15,13 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
   </head>
   <body>
     <!--------heroHeader-section----------->
-    <header class="hero-section section">
+    <header class="hero-section section bg-image">
       <div class="container container-new">
-        <nav class="navbar navigation navbar-expand-xl">
+        <nav class="navbar navigation navbar-expand-xl align-item-center">
           <a class="navbar-brand" href="#">
             <svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2079" height="807" viewBox="0 0 2079 807">
               <defs>
@@ -46,55 +47,78 @@
               <text id="Tokang" class="cls-1" transform="translate(1394.04 545.044) scale(1.077 1.076)"><tspan x="0">Tokang</tspan></text>
               <text id="renovate_with_joomla" data-name="renovate with joomla" class="cls-2" transform="translate(1420.177 682.173) scale(0.3 0.3)"><tspan x="0">renovate with joomla</tspan></text>
             </svg>
-
+ 
           </a>  
 
             <span class="ham-menu"></span>
 
-          <div class="collapse nav-menu navbar-collapse" id="toggleBtn">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">
+          <div class="collapse nav-menu navbar-collapse" id="toggleBtn align-item-center">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active dropdown">
+                <a  class=" nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <span>home</span>
                   <i class="fas fa-angle-down"></i>
                 </a>
+                 
+                <div class="dropdown-menu drop-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Home 1</a>
+                  <a class="dropdown-item" href="#">Home 2</a>
+                  <a class="dropdown-item" href="#">Home 3</a>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li class="nav-item active">
+                <a  class="nav-link" href="#">
                   <span>about us</span>
-                  <i class="fas fa-angle-down"></i>
-                </a>
+                </a> 
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <span>pages</span>
                   <i class="fas fa-angle-down"></i>
                 </a>
-  <!--
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+  
+                <div class="dropdown-menu drop-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Action</a>
                   <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
-  -->
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li class="nav-item active dropdown">
+                <a  class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <span>portfolio</span>
                   <i class="fas fa-angle-down"></i>
                 </a>
+ 
+                <div class="dropdown-menu drop-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li class="nav-item active dropdown">
+                <a  class=" nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <span>service</span>
                   <i class="fas fa-angle-down"></i> 
                 </a>
+ 
+                <div class="dropdown-menu drop-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span>Contact us</span>
-                  <i class="fas fa-angle-down"></i> 
                 </a>
               </li>
             </ul>
