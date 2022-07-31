@@ -50,6 +50,9 @@
 }
 
 @media only screen and (max-width: 1200px) {
+html,body{
+  font-size: 18px;
+}
 .section{
   padding-top: 0;
 }
@@ -95,6 +98,71 @@
   transform: translateY(0) rotate(-45deg);
 
 }
+  .navigation{
+    position: relative;  
+    padding: 0;
+  }
+  .nav-small{
+    position: fixed;
+    left: 100%;
+    top: 0;
+    width: 30%;
+    transition: all 0.4s linear;
+    height: 100vh;
+    background-color: #101010;
+  }
+  .nav-small ul{
+    padding: 30px;
+  }
+  .nav-small ul li{
+    padding: 5px 0;
+  }
+  .nav-small ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;    
+    font-weight: 600;  
+    color: #B2B2B2;
+    
+
+  }
+  .nav-small .logo{
+    width: 120px;
+    height: 60px;
+    fill: #fff;
+  }
+  .nav-small .nav-header{
+    background-color: #202020;
+    padding: 10px ;
+  }
+  .close-btn{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .close-btn::before, .close-btn::after{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 5%;
+    background-color: #ebb204;
+  }
+  .close-btn::before{
+    transform: rotate(45deg);  
+
+  }
+  .close-btn::after{
+    transform: rotate(-45deg);  
+  }
+  .slide-nav{
+    left: 0;
+    transition: all 0.4s linear;
+  }
   /*===============heroHome============*/
   /*===============About===============*/
 
