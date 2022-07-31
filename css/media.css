@@ -1,5 +1,8 @@
 @media only screen and (min-width: 1680px) {
   /*===============nav============*/
+  .ham-menu{
+    display: none;
+  }
   /*===============heroHome============*/
   /*===============About===============*/
 
@@ -19,9 +22,16 @@
   .container-new {
     max-width: 1200px;
   }
+  .section{
+    padding-top: 0;
+  }
   /*===============nav============*/
   .navigation .logo {
     width: 180px;
+  }
+  .ham-menu{
+    display: none;
+
   }
   /*===============heroHome============*/
   /*===============About===============*/
@@ -40,7 +50,51 @@
 }
 
 @media only screen and (max-width: 1200px) {
+.section{
+  padding-top: 0;
+}
   /*===============nav============*/
+  .navigation .logo{
+    width: 150px;
+    height: 70px;
+  }
+.navigation .nav-menu{
+  display: none;
+} 
+.ham-menu{
+  width: 70px;
+  height: 70px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.4s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ham-menu::after, .ham-menu::before{
+  content: "";
+  position: absolute;
+  width: 85%;
+  height: 5%;
+  background-color: #ebb204;
+  transition: all 0.4s linear;
+}
+.ham-menu::before{
+  transform: translateY(-15px);
+  box-shadow: 0 15px 0 0 #ebb204;
+}
+.ham-menu::after{
+  transform: translateY(15px);
+
+}
+.ham-menu.active::before{
+  box-shadow: none;
+  transform: translateY(0) rotate(45deg);
+}
+.ham-menu.active::after{
+  transform: translateY(0) rotate(-45deg);
+
+}
   /*===============heroHome============*/
   /*===============About===============*/
 
