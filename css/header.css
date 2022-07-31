@@ -1,21 +1,50 @@
 .hero-section{
-    background-image: url(../Image/Jpg/slider1.jpg);
+/*    background-image: url(../Image/Jpg/slider1.jpg);*/
     height: 100vh;
     min-height: 850px;
 }
+.navigation{
+    padding: 0;
+
+}
+.bg-panel{
+    z-index: 99;
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    transition: all 0.4s linear;
+
+}
+.bg-panel a{
+    color: #101010;
+
+}
+.nav-scroll{
+    background-color: #fff;
+    transition: all 0.4s linear;
+}
+.navigation a .fill{
+    fill: #101010;
+}
+
+/*==========nav-btn==========*/
 .navigation .logo{
     width: 250px;
-    height: 100px;
+    height: auto;
     object-fit: contain;
     object-position: center;
     vertical-align: 0;
+    fill: #fff;
 }
 .nav-menu ul li a{
     color: #fff;
     font-size: 0.8rem;
     text-transform: uppercase;
-
+    font-weight: 500;
     
+}
+.nav-menu ul li .black{
+    color: #101010;
 }
 ul li a span{
     padding-right: 3px;
@@ -31,4 +60,58 @@ ul li a span{
 .nav-menu .drop-menu a{
     color: #101010;
 }
-/*==========nav-btn==========*/
+/*===========*slides-hero===========*/
+.hero-section .hero-slide{
+    position: relative;
+}
+.hero-section .slide{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 850px;
+}
+.hero-section .slide-1{
+    background-image: url(../image/Jpg/slider1.jpg);
+}
+.hero-section .slide-2{
+    background-image: url(../image/Jpg/slider2.jpg);
+}
+.hero-slide .hero-center-1{
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.hero-slide .hero-center-2{
+    justify-content: flex-start;
+    height: 100%;
+}
+.hero-slide .hero-content{
+    padding: 10px;
+    color: #fff;
+    width: 50%;
+}
+.hero-section .slide-left, .slide-right{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1010109f;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+.hero-section .slide-left{
+    right: 20px;
+}
+.hero-section .slide-right{
+    left: 20px;
+}

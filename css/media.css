@@ -3,6 +3,9 @@
   .ham-menu{
     display: none;
   }
+  .nav-small{
+    display: none;
+  }
   /*===============heroHome============*/
   /*===============About===============*/
 
@@ -32,6 +35,9 @@
   .ham-menu{
     display: none;
 
+  }
+  .nav-small{
+    display: none;
   }
   /*===============heroHome============*/
   /*===============About===============*/
@@ -65,8 +71,8 @@ html,body{
   display: none;
 } 
 .ham-menu{
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   position: relative;
   cursor: pointer;
   transition: all 0.4s linear;
@@ -79,35 +85,36 @@ html,body{
   position: absolute;
   width: 85%;
   height: 5%;
-  background-color: #ebb204;
+  background-color: #fff;
   transition: all 0.4s linear;
 }
 .ham-menu::before{
   transform: translateY(-15px);
-  box-shadow: 0 15px 0 0 #ebb204;
+  box-shadow: 0 15px 0 0 #fff;
 }
 .ham-menu::after{
   transform: translateY(15px);
 
 }
-.ham-menu.active::before{
+/*.ham-menu.active::before{
   box-shadow: none;
   transform: translateY(0) rotate(45deg);
 }
 .ham-menu.active::after{
   transform: translateY(0) rotate(-45deg);
 
-}
+}*/
   .navigation{
     position: relative;  
     padding: 0;
+    justify-content: flex-start;
   }
   .nav-small{
     position: fixed;
-    left: 100%;
+    left: -100%;
     top: 0;
-    width: 30%;
-    transition: all 0.4s linear;
+    width: 300px;
+    transition: all 0.8s linear;
     height: 100vh;
     background-color: #101010;
   }
@@ -161,7 +168,7 @@ html,body{
   }
   .slide-nav{
     left: 0;
-    transition: all 0.4s linear;
+    transition: all 0.8s linear;
   }
   /*===============heroHome============*/
   /*===============About===============*/

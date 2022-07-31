@@ -1,0 +1,190 @@
+/*========service-section==========*/
+.service-section .image{
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s linear;
+}
+.service-section .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    transform: scale(1);
+    transition: all 0.4s linear;
+}
+.service-section .image:hover img{
+    transform: scale(1.2);
+
+
+}
+.service-section .image::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;    
+    height: 100%;
+    background-color: #101010;
+    opacity: 0.5;
+    z-index: 1;
+    transition: all 0.4s linear;
+    cursor: pointer;
+
+}
+.service-section .image:hover::before{
+    opacity: 0;
+}
+
+
+
+/*========project-section==========*/
+.service-type-section .content p{
+    padding-top: 40px;
+}
+.service-type-section .benefits{
+    padding-top: 30px;
+}
+.service-type-section .benefits h3{
+    border-bottom: 1px solid #101010;   
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+.service-type-section .benefits svg{
+    fill: #ebb204;
+    width: 70px;
+    height: 70px;
+}
+/*========Project-section==========*/
+.project-section .content{
+    color: #fff;
+    text-align: center;
+
+}
+.project-section .content h3{
+    margin: 0;
+    margin-top: 15px;
+}
+.project-section .project-group{
+    transition: all 0.4s linear;
+}
+.project-section .image{
+    overflow: hidden;
+    transition: all 0.4s linear;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.project-section .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.4s linear;
+
+}
+.project-section .image:hover img{
+    transform: scale(1.2);
+}
+.project-section .content-panel{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 1;
+    transition: all 0.4s linear 0.4s;
+    cursor: pointer;
+
+}
+.project-section .project-group:hover .content-panel{
+    visibility: visible;
+    background-color: #10101082;
+
+
+}
+.project-section .perform{
+    color: #101010; 
+    padding-top: 20px;
+}
+.project-section .num{
+    font-size: 4rem;
+    font-weight: 300;
+
+
+}
+/*========team-section==========*/
+.team-section .content {
+    text-align: center; 
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+.team-section .image{
+    background-color: red;    
+    position: relative;
+}
+.team-section .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.team-section .desi{
+    position: absolute;
+    top: 0;
+    background-color: #10101047;
+    color: #fff;
+    width: 85%;
+    height: 100%;
+
+}
+.team-section .desi-title{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 30px;
+    color: #fff;
+}
+/*========testiminial-section==========*/
+.testimonial-section .profile{
+    justify-content: flex-start;
+}
+.testimonial-section .profile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+
+}
+
+/*========brand-section==========*/
+.brand-section{ 
+    width: 100%;
+    background-image: url(../Image/Jpg/bg-home-1.jpg);
+    height: 850px;
+     background-attachment: fixed;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.brand-section .partner img{
+    height: 50px;
+    width: auto;
+}
+.brand-section .content{
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+    padding-top: 50px;
+    color: #fff;
+
+}
+/*========blog-section==========*/
+
+
+/*========service-section==========*/
