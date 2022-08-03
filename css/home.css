@@ -175,6 +175,8 @@
 .brand-section .partner img{
     height: 50px;
     width: auto;
+    cursor: pointer; 
+    margin: 0 auto;
 }
 .brand-section .partner .dark-logo{
     height: 100px;
@@ -220,7 +222,7 @@
     width: 100%;
     object-fit: contain;
     position: absolute;
-    top: -150px;
+    bottom: -120px;
 
 }
 .yellow{

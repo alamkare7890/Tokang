@@ -1,11 +1,12 @@
 .hero-section{
 /*    background-image: url(../Image/Jpg/slider1.jpg);*/
     height: 100vh;
+    width: 100%;
     min-height: 850px;
 }
 .navigation{
     padding: 0;
-
+    width: 100%;
 }
 .bg-panel{
     z-index: 99;
@@ -14,6 +15,9 @@
     width: 100%;
     transition: all 0.4s linear;
 
+}
+.bg-color{
+    background: #ebb204;
 }
 .bg-panel a{
     color: #101010;
