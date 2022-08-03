@@ -176,6 +176,9 @@
     height: 50px;
     width: auto;
 }
+.brand-section .partner .dark-logo{
+    height: 100px;
+}
 .brand-section .content{
     text-align: center;
     margin: 0 auto;
