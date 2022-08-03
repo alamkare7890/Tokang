@@ -388,15 +388,44 @@ html,body{
 @media only screen and (max-width: 768px) {
   /*===============nav============*/
   /*===============heroHome============*/
+  .sub-head{
+    text-align-last: center;
+  }
   .content{
     text-align: center;
-    margin-bottom: 25px;
+    margin: 25px 0;
+  }
+  .hero-slide .hero-content{
+    width: 100%;
+  }
+  .service-type-section .content p{
+    padding-top: 0;
+  }
+  .service-type-section .benefits{
+    text-align: center;  
+    padding-top: 0;
+  }
+  .service-type-section .content{
+    margin: 0;
+  }
+  .project-section .num{
+    font-size: 3rem;
+  }
+  .team-section .image{
+    margin-bottom: 30px;
+  }
+  .team-section .desi{
+    width: 87%;
+    height: 93%;
   }
   .brand-section .content{
     width: 100%;
   }
   .testimonial-section .person{
     margin: 0 40px;
+  }
+  .footer-section{
+    margin-top: 0;
   }
   /*===============About===============*/
 
@@ -415,6 +444,31 @@ html,body{
 @media only screen and (max-width: 576px) {
   /*===============nav============*/
   /*===============heroHome============*/
+  .ham-menu{
+    width: 50px;
+    height: 50px;
+  }
+  .section{
+    padding: 20px 0;
+  }
+  .hero-head {
+    font-size: 2.5rem;
+  }
+
+  .hero-light {
+    font-size: 2.5rem;
+  }
+  
+  .project-section .perform{
+    text-align: center;
+  }
+  .project-section .num{
+    display: block;
+  }
+  .team-section .desi{
+    width: 91%;
+    height: 95%;
+  }
   /*===============About===============*/
 
   /*===============Pages===============*/
@@ -433,6 +487,19 @@ html,body{
 @media only screen and (max-width: 480px) {
   /*===============nav============*/
   /*===============heroHome============*/
+  .hero-head{
+    font-size: 1.8rem;
+  }
+  .hero-light{
+    font-size: 1.8rem;
+  }
+  .sub-head{
+    font-size: 1.2rem;
+  }
+  .team-section .desi{
+    width: 88%;
+    height: 94%;
+  }
   /*===============About===============*/
 
   /*===============Pages===============*/
@@ -466,6 +533,10 @@ html,body{
 }
 @media only screen and (max-width: 340px) {
   /*===============nav============*/
+  .team-section .desi{
+    width: 86%;
+    height: 93%;
+  }
   /*===============heroHome============*/
   /*===============About===============*/
 
