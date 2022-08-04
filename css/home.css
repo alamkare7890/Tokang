@@ -104,16 +104,12 @@
 
 
 }
-.project-section .perform{
+.perform{
     color: #101010; 
     padding-top: 20px;
+    text-align: center;
 }
-.project-section .num{
-    font-size: 4rem;
-    font-weight: 300;
 
-
-}
 /*========team-section==========*/
 .team-section .content {
     text-align: center; 
