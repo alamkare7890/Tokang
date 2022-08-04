@@ -81,7 +81,11 @@ a:hover{
   font-weight: 400;
   color: #aaa;
 }
-
+.title{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
 .all-btn {
   text-transform: uppercase;
   font-size: 0.75rem;
