@@ -334,9 +334,6 @@ html,body{
   .brand-section{
     height: 600px;
   }
-  .team-section .desi{
-    width: 82%;
-  }
   .brand-section .partner img{
     width: 120px;
     object-fit: contain;
@@ -365,7 +362,9 @@ html,body{
 @media only screen and (max-width: 991px) {
   /*===============nav============*/
   /*===============heroHome============*/
-
+  .team-section .whole-image{
+    margin-bottom: 30px;
+  }
 
 
   .footer-section img{
@@ -414,10 +413,6 @@ html,body{
   .team-section .image{
     margin-bottom: 30px;
   }
-  .team-section .desi{
-    width: 87%;
-    height: 93%;
-  }
   .brand-section .content{
     width: 100%;
   }
@@ -465,10 +460,6 @@ html,body{
   .project-section .num{
     display: block;
   }
-  .team-section .desi{
-    width: 91%;
-    height: 95%;
-  }
   /*===============About===============*/
 
   /*===============Pages===============*/
@@ -495,10 +486,6 @@ html,body{
   }
   .sub-head{
     font-size: 1.2rem;
-  }
-  .team-section .desi{
-    width: 88%;
-    height: 94%; 
   }
   /*===============About===============*/
 
@@ -533,10 +520,6 @@ html,body{
 }
 @media only screen and (max-width: 340px) {
   /*===============nav============*/
-  .team-section .desi{
-    width: 86%;
-    height: 93%;
-  }
   /*===============heroHome============*/
   /*===============About===============*/
 
