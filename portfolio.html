@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Yantramanav:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/contact.css">
@@ -24,7 +25,7 @@
   </head>
   <body>
     <!--------heroHeader-section----------->
-    <header class="hero-section bg-image">
+    <header class="port-hero-section bg-image">
       <div class="bg-panel" id="navScroll">
         <div class="container container-new">
           <nav class="navbar navigation navbar-expand-xl align-item-center">
@@ -262,10 +263,12 @@
             </div>
           </div>
       </div>
-      <div class="hero-header">
-        <div class="head-content">
-          <h1 class="hero-head flex-box">Portfolio</h1>
-          <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsam cum debitis aliquam iusto fugiat consequuntur hic magni reiciendis deleniti.</p>
+      <div class="hero-header flex-box align-items-end">
+        <div class="container container-new">
+          <div class="head-content">
+            <h1 class="hero-head flex-box">Portfolio</h1>
+            <p class="para para-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsam cum debitis aliquam iusto fugiat consequuntur hic magni reiciendis deleniti.</p>
+          </div>
         </div>
       </div>            
     </header>
@@ -276,22 +279,22 @@
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Show All</a>
+            <a class="nav-link active" id="showAll" data-toggle="tab" href="#allShow" role="tab" aria-controls="allShow" aria-selected="true">Show All</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Infrastructure</a>
+            <a class="nav-link active" id="showIntfa" data-toggle="tab" href="#infraShow" role="tab" aria-controls="infraShow" aria-selected="true">Infrastructure</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Interior</a>
+            <a class="nav-link" id="showInterio" data-toggle="tab" href="#interioShow" role="tab" aria-controls="interioShow" aria-selected="false">Interior</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Building</a>
+            <a class="nav-link" id="showBuilt" data-toggle="tab" href="#builtShow" role="tab" aria-controls="builtShow" aria-selected="false">Building</a>
           </li>
         </ul>
         
         <!-- Tab panes -->
         <div class="tab-content">
-          <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="tab-pane active" id="allShow" role="tabpanel" aria-labelledby="showAll">
             <div class="projects">
               <figure>
                 <div class="image">
@@ -359,7 +362,7 @@
               </figure>
             </div>
           </div>
-          <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="tab-pane" id="infraShow" role="tabpanel" aria-labelledby="showIntfa">
             <div class="projects">
               <figure>
                 <div class="image">
@@ -372,7 +375,7 @@
               </figure>
             </div>
           </div>
-          <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+          <div class="tab-pane" id="interioShow" role="tabpanel" aria-labelledby="showInterio">
             <div class="projects">
               <figure>
                 <div class="image">
@@ -385,7 +388,7 @@
               </figure>
             </div> 
           </div>
-          <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+          <div class="tab-pane" id="builtShow" role="tabpanel" aria-labelledby="showBuilt">
             <div class="projects">
               <figure>
                 <div class="image">

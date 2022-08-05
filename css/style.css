@@ -70,6 +70,17 @@ a:hover{
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
+  margin-bottom: 0;
+}
+.small-head{
+  font-size: 1rem;
+  font-weight: 500;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  margin-bottom: 0;
 }
 .small-title{
   font-size: 0.85rem;
@@ -82,6 +93,7 @@ a:hover{
   font-weight: 400;
   color: #aaa;
 }
+
 .title{
   font-size: 1rem;
   text-transform: uppercase;
@@ -147,6 +159,19 @@ a:hover{
 .num{
   font-size: 4rem;
   font-weight: 300;
+}
+.color-white{
+  color: #fff;
+}
+.para-white{
+  color: #FBFBFB;
+}
+.light-title{
+  font-weight: 400;
+  color: #ebb204;
+}
+.stand-title{
+    color: #606060;
 }
 .hero-header{
    
