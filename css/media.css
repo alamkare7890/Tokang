@@ -118,12 +118,6 @@ html,body{
   /*===============Contact=============*/
 
   /*===============Footer-section======*/
-  .footer-section{
-    padding-bottom: 60px;
-  }
-  .footer-section img{
-    bottom: -60px;
-  }
   /*===============media-query======*/
 }
 
@@ -337,13 +331,6 @@ html,body{
   .brand-section .partner img{
     width: 120px;
     object-fit: contain;
-  }
-  .footer-section{
-    padding-bottom: 25px;
-  }
-  .footer-section img{
-    bottom: -25px;
-    height: 550px;
   }
   /*===============About===============*/
 

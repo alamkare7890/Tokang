@@ -190,7 +190,7 @@
 
 /*========service-section==========*/
 .footer-section{
-    padding: 50px 0  123px 0;
+    padding: 50px 0  0 0;
     background-color: #101010;
     margin-top: 100px;
     position: relative;
@@ -218,7 +218,7 @@
     width: 100%;
     object-fit: contain;
     position: absolute;
-    bottom: -120px;
+    bottom: 0;
 
 }
 .yellow{
